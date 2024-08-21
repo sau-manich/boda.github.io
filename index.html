@@ -32,11 +32,11 @@
 		}
 	</script>
 
-	<script>
+	<!-- <script>
 		document.addEventListener('contextmenu', function(e) {
 		e.preventDefault();
 		});
-	</script>
+	</script> -->
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
@@ -323,9 +323,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading" style="margin-top: 80px;margin-bottom: -150px;">
-						<span>Con el apopyo de</span>
-						<h2>Nuestros Padrinos y Consejeros </h2>
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading heading-title">
+						<span>Con el apoyo de</span>
+						<h2>Nuestros Padrinos y Consejeros</h2>
 					</div>
 				</div>
 				<div class="display-t">
@@ -335,7 +335,7 @@
 								<span class="icon">
 									<img src="images/padrin.png" width="300px" style="border-radius: 10px;">
 								</span>
-								<span class="counter-label">Ing. Luis Ticona & Lic. Marisol Cruz </span>
+								<span class="counter-label">Ing. Luis Ticona & Lic. Marisol Cruz</span>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 animate-box">
@@ -351,64 +351,74 @@
 			</div>
 		</div>
 	</div>
+	
+	<style>
+	.heading-title {
+		margin-top: 80px;
+		margin-bottom: -150px;
+	}
+	
+	@media (max-width: 767px) {
+		.heading-title {
+			margin-top: -50px;
+			margin-bottom: 20px;
+		}
+	}
+	</style>
+	
 
-	<div id="fh5co-testimonial">
+	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/fondito.png);">
+		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Con la bendición de</span>
-						<h2>Nuestros Padres </h2>
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading heading-title">
+						<span style="color: #470662;">Con la bendición de</span>
+						<h2 style="color: #470662;">Nuestros Padres</h2>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony">
-							<style>
-								.item figure {
-									width: 450px;
-									height: 150px; 
-									margin: 0 auto; 
-								}
-							
-								.item figure img {
-									width: 100%; 
-									height: 100%; 
-									object-fit: cover; 
-									border-radius: 50%; 
-								}
-							</style>
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<img src="images/papasSamuel.png" style="border-radius: 10px; width: 250px; display: block; margin: 0 auto;"><br>
-										<span>Adolfo Mamani Pinto</span>
-										&<br>
-										<span>Emma Choque Alegre</span>
-										<blockquote>
-											<p>"Que el amor y la comprensión que hoy se tienen crezcan cada día más. Siempre recuerden que el respeto y la paciencia son la base de un matrimonio feliz."</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<img src="images/papasJhaneth.png" style="border-radius: 10px; width: 250px; display: block; margin: 0 auto;" alt="user"><br>
-										<span>Jhonny Guerra</span>
-										&<br>
-										<span>Elizabeth Tarqui</span>
-										<blockquote>
-											<p>"Les deseamos una vida llena de amor, risas y momentos inolvidables. Que cada desafío los acerque más y que siempre encuentren en el otro su mayor apoyo."</p>
-										</blockquote>
-									</div>
-								</div>
+				<div class="display-t">
+					<div class="display-tc">
+						<div class="col-md-6 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span class="icon">
+									<img src="images/papasSamuel.png" style="border-radius: 10px; width: 250px; display: block; margin: 0 auto;">
+								</span>
+								<span>Adolfo Mamani Pinto</span>
+								&<br>
+								<span>Emma Choque Alegre</span>
 							</div>
-							
+						</div>
+						<div class="col-md-6 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span class="icon">
+									<img src="images/papasJhaneth.png" style="border-radius: 10px; width: 250px; display: block; margin: 0 auto;" alt="user">
+								</span>
+								<span>Jhonny Guerra</span>
+								&<br>
+								<span>Elizabeth Tarqui</span>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	
+	<style>
+	.heading-title {
+		margin-top: 80px;
+		margin-bottom: -150px;
+	}
+	
+	@media (max-width: 767px) {
+		.heading-title {
+			margin-top: -50px;
+			margin-bottom: 20px; 
+		}
+	}
+	</style>
+	
 
 	<div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
@@ -476,7 +486,7 @@
 				</div>
 				<br><br>
 				<div class="col-md-6 animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
+					<div class="fh5co-video fh5co-bg" style="background-image: url(images/sj23.jpeg); ">
 						<a href="images/propuesta.mp4" class="popup-vimeo"><i class="icon-video2"></i></a>
 						<div class="overlay"></div>
 					</div>
@@ -493,8 +503,8 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Unete a nuestro grupo</h2>
-					<p>Publicaremos detalles y novedades para que tengas mejor informacion</p>
+					<h2>Únete a nuestro grupo</h2>
+					<p>Publicaremos detalles y novedades para que tengas mejor información.</p>
 				</div>
 			</div>
 			<div class="row animate-box">
